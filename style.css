@@ -1,0 +1,351 @@
+ .navbar-light .navbar-nav .nav-link:hover {
+    color: #0a0101;
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    font-family: 'Fira Code', monospace;
+  }
+  .navbar-light .navbar-brand .logo {
+    font-family: 'Fira Code', monospace;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .navbar-light .navbar-brand .logo:hover {
+    text-decoration: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    position: relative;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover:before {
+    width: 100%;
+    visibility: visible;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #3a12b1;
+    cursor: pointer;
+    left:0 ;
+    bottom: 5px;
+}
+  /* carousel */
+
+
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .carousel {
+    background: rgba(0, 0, 0, 0.75);
+  }
+  
+  .carousel-caption {
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+    bottom: 220px;
+    z-index: 2;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    }
+  
+  
+  .carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .carousel:hover .carousel-control-prev,
+  .carousel:hover .carousel-control-next {
+    opacity: 1;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px  0;
+  }
+  
+  .btnt {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius:  25px;
+    margin: 0 10px;
+    transition:  0.3s;
+    background-color: #1238dd;
+  }
+  
+  .btnt:hover {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+    }
+    
+    .btnt {
+      margin: 10px 0;
+    }
+  }
+
+  .carousel-item {
+  position: relative;
+  overflow: hidden; /* Hide any content that exceeds the carousel item */
+}
+
+.carousel-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0; /* Remove any default margins */
+  padding: 0; /* Remove any default padding */
+}
+
+/* New styles */
+.carousel-inn {
+    width: 100%;
+    height: 100vh; /* This makes it full viewport height */
+}
+
+.video-contain {
+    position: relative;
+    width: 100%;
+    height: 100%; /* This makes it fill the carousel item */
+    overflow: hidden;
+}
+
+.video-contain iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-it {
+    height: 100vh; /* This makes each item full viewport height */
+}
+
+.carousel-caption {
+    bottom: 50%; /* Centers the caption vertically */
+    transform: translateY(50%);
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* The about section  */
+
+  
+.section-padding {
+  padding: 100px 0;
+}
+
+.about {
+  position: relative;
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about.show .about-img {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 1s ease forwards;
+}
+
+.about-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  font-family: 'Fira Code', monospace;
+  margin-top: 120px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.about.show .about-text {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 1s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* services */
+.services .card-body i{
+  font-size: 50px;
+}
+
+.elevate{
+  transition: 0.6s ease;
+}
+.elevate :hover{
+transform: scale(1.1);
+}
+
+footer {
+	background: #101010;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: #fff;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #fff;
+}
+.single-box .card-area i {
+	color: #ffffff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #fff;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+
+.sr-bottom {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.show .sr-bottom {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* ===responsive css === */
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  
+  .carousel-caption{
+    bottom: 150px;
+
+}
+.carousel-caption p{
+    width: 100%;
+
+}
+  .card{
+      margin-bottom: 30px;
+  }
+ 
+}
+@media only screen and (max-width: 767px){
+
+  .carousel-caption{
+    bottom: 15px;
+}
+.carousel-caption h5{
+    font-size: 17px;
+}
+.carousel-caption a{
+    padding: 10px 15px;
+    margin: 7px 0;
+}
+.carousel-caption p{
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+}
+
+.btnt{
+  padding: 3px;
+  size: 2px;
+}
+
+.card{
+      margin-bottom: 30px;
+  }
+}
+
+
+
+  

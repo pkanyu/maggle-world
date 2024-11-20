@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title >Maggle World</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="adjust.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="products.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Fira+Code');
+  </style>
+</head>
+<body>
+
+    <!-- This is where my navbar starts -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="#">
+          <span class="logo">
+            <img src="carouselVideo/logo.png" alt="Logo" id="home"class="logo-img "  width="30" height="24" class=" logo-img d-inline-block align-text-top">Maggle <span class="text-primary">world</span>
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sectiontestimonialss">Testimonials</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    
+
+  <!-- This is where my navbar ends  -->
+
+
+  <!-- This is where my carousel begins -->
+<section>
+    <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner carousel-inn">
+          <div class="carousel-item active">
+            <div class="carousel-video video-contain carousel-it">
+                    <iframe 
+                        src="https://www.youtube.com/embed/OhXh8eqtOpo?si=EN5jL4fQt1jw_B_Y&autoplay=1&mute=1&loop=1&playlist=OhXh8eqtOpo" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen
+                        >
+                    </iframe>
+                </div>
+            <div class="carousel-caption">
+              <h5>The Potter Universe</h5>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Doloremque, ipsam!</p>
+              <div class="button-container">
+                <button type="button" onclick="window.location.href = 'settings.html'" class="btnt btn-primary btn-lg " style="border-radius: 25px;">Log In</button>
+                <button type="button" onclick="window.location.href = 'settings.html'" class="btnt btn-primary btn-lg " style="border-radius: 25px;">Sign Up</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-video video-contain carousel-it">
+                    <iframe  
+                        src="https://www.youtube.com/embed/3vUtg20L7LM?si=zN33017fwHuXy1vT&autoplay=1&mute=1&loop=1&playlist=3vUtg20L7LM" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            <div class="carousel-caption">
+              <h5>The Potter Universe</h5>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Doloremque, ipsam!</p>
+              <div class="button-container">
+                <button type="button"onclick="window.location.href = 'settings.html'"  class="btnt btn-primary btn-lg " style="border-radius: 25px;">Log In</button>
+                <button type="button"onclick="window.location.href = 'settings.html'"  class="btnt btn-primary btn-lg " style="border-radius: 25px;">Sign Up</button>
+                
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-video video-contain carousel-it">
+                    <iframe 
+                        src="https://www.youtube.com/embed/-ZHuf819-Pw?si=HuMkHmO3xff8sBcq&autoplay=1&mute=1&loop=1&playlist=-ZHuf819-Pw" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            <div class="carousel-caption">
+              <h5>The Potter Universe</h5>
+              <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Doloremque, ipsam!</p>
+              <div class="button-container">
+                <button type="button" onclick="window.location.href = 'settings.html'" class="btnt btn-primary btn-lg " style="border-radius: 25px;">Log In</button>
+                <button type="button" onclick="window.location.href = 'settings.html'" class="btnt btn-primary btn-lg " style="border-radius: 25px;">Sign Up</button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#videoCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#videoCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</section>
+    
+
+   <!-- This is where my carousel ends  -->
+    
+   
+    <!-- My about section  -->
+    
+    <section id="about" class="about section-padding ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-12">
+            <div class="about-img sr-bottom">
+              <img src="carouselVideo/sindre-aalberg-mEr7U5yfYt8-unsplash.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12">
+            <div class="about-text  sr-bottom">
+              <h2>What we're about</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus impedit, laboriosam dolor, necessitatibus iusto autem dignissimos saepe quam vitae odio commodi molestias incidunt optio enim cumque facilis sapiente dolores iure eum illum quos beatae eos placeat! Cumque nisi non dolor sapiente doloremque blanditiis, sed exercitationem! Sit consectetur exercitationem assumenda unde laborum accusantium voluptatum, quidem ex cupiditate voluptas, eum, et quibusdam perspiciatis asperiores beatae quaerat illum. Sapiente alias perferendis ex tenetur.</p>
+              <a href="settings.html" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- The about section ends  -->
+  
+<!-- This is where my service section starts  -->
+<section id="services" class="services section-padding ">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-header text-center pb-5 sr-bottom ">
+          <h2>Our Services</h2>
+          <p class="">We sell Harry Potter merch <br> adipisicing elit. Vitae molestiae architecto beatae voluptates exercitationem? Officia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-12 col-lg-4 elevate">
+        <div class="card text-white text-center bg-dark pb-2 sr-bottom shadow ">
+          <div class="card-body ">
+
+            <i class="bi bi-subtract"></i>
+            <h3 class="card-title">
+              Best Quality
+            </h3>
+            <p class="lead sr-bottom ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ea unde quasi, dignissimos impedit similique itaque corrupti distinctio cumque iure ipsum minima, nobis quidem accusantium?</p>
+            <button type="button" onclick="window.location.href = 'settings.html'" class="btn btn-outline-warning text-light">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="shadow elevate">
+          <div class="card text-white text-center bg-dark pb-2  sr-bottom ">
+            <div class="card-body ">
+  
+              <i class="bi bi-slack"></i>
+              <h3 class="card-title ">
+                Integrity
+              </h3>
+              <p class="lead sr-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ea unde quasi, dignissimos impedit similique itaque corrupti distinctio cumque iure ipsum minima, nobis quidem accusantium?</p>
+              <button type="button"onclick="window.location.href = 'settings.html'"  class="btn btn-outline-warning text-light">Read More</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card text-white text-center bg-dark pb-2  sr-bottom shadow elevate">
+          <div class="card-body ">
+
+            <i class="bi bi-heart-pulse"></i>
+            <h3 class="card-title">
+              Sustainability
+            </h3>
+            <p class="lead  sr-bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam ea unde quasi, dignissimos impedit similique itaque corrupti distinctio cumque iure ipsum minima, nobis quidem accusantium?</p>
+            <button type="button" onclick="window.location.href = 'settings.html'" class="btn btn-outline-warning text-light">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- This is where my service section ends  -->
+
+<!-- This is where my products starts  -->
+<section id="products" class="products section-padding">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="section-header text-center pb-5 text-light">
+        <h2>Featured Products</h2>
+        <p >Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Vitae molestiae architecto beatae voluptates exercitationem? Officia.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container ">
+		<div class="row">
+			<div class="col-lg-4 col-sm-12">
+				<div class="single-team" style="background-image: url(carouselVideo/shayna-douglas--EwOTtOcReM-unsplash.jpg);">
+					<div class="content">
+						<h3>&lsquo;The Elder Wand&rsquo; <span>Most Powerful Wand Ever Made</span></h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-12">
+				<div class="single-team" style="background-image: url(carouselVideo/allison-batley-9Rmmgj3wsJU-unsplash.jpg);">
+					<div class="content">
+						<h3>&lsquo;Grimoire &rsquo;<span>Book Of Wizzadry, Spells, Magic And Witchcraft</span></h3>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-12">
+				<div class="single-team" style="background-image: url(carouselVideo/sean-thomas-F6920BvzrZE-unsplash.jpg);">
+					<div class="content">
+						<h3>&lsquo;Malleus Maleficarum&rsquo;<span>Book Againts Witches</span></h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- This is where my products ends  -->
+
+<!-- This is where my testimonial section starts  -->
+<section id="sectiontestimonialss" class="testimonialss section-padding">
+  <div class="container">
+      <h1 class="testimonialsssection-header">Client Reviews<span>What People Say About Us.</span></h1>
+      <div class="testimonials">
+          
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="single-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile">
+                                <div class="img-area">
+                                    <img src="carouselVideo/profile1.jpg" alt="">
+                                </div>
+                                <div class="bio">
+                                    <h2>Davis Wood</h2>
+                                    <h4>Web Developer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="testinomialsscontent">
+                                <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                <p class="socials">
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-behance"></i>
+                                    <i class="fa fa-pinterest"></i>
+                                    <i class="fa fa-dribbble"></i>
+                                    <i class="fa fa-vimeo"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile">
+                                <div class="img-area">
+                                    <img src="carouselVideo/profile2.jpg"">
+                                </div>
+                                <div class="bio">
+                                    <h2>Serah Evergarden</h2>
+                                    <h4>UI/UX Designer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="testinomialsscontent">
+                                <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                <p class="socials">
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-behance"></i>
+                                    <i class="fa fa-pinterest"></i>
+                                    <i class="fa fa-dribbble"></i>
+                                    <i class="fa fa-vimeo"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="profile">
+                                <div class="img-area">
+                                    <img src="carouselVideo/profile3.jpg" alt="">
+                                </div>
+                                <div class="bio">
+                                    <h2>Candice Dean</h2>
+                                    <h4>Graphic Designer</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="testinomialsscontent">
+                                <p><span><i class="fa fa-quote-left"></i></span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel a eius excepturi molestias commodi aliquam error magnam consectetur laboriosam numquam, minima eveniet nostrum sequi saepe ipsam non ea, inventore tenetur! Corporis commodi consequatur molestiae voluptatum!</p>
+                                <p class="socials">
+                                    <i class="fa fa-twitter"></i>
+                                    <i class="fa fa-behance"></i>
+                                    <i class="fa fa-pinterest"></i>
+                                    <i class="fa fa-dribbble"></i>
+                                    <i class="fa fa-vimeo"></i>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+      </div>
+  </div>
+</section>
+
+
+<!-- This is where my testimonial section ends  -->
+    
+<!-- This is the beginning of my footer  -->
+<section>
+  <div class="content">
+    <div class="container">
+        <div class="single-content">
+            <h1>>-- wE lOok FoRwArd tO sErViNg YOu --<</h1>
+        </div>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <img src="carouselVideo/logo.png" alt="" width="50px" height="50px">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam repellendus sunt praesentium aspernatur iure molestias.</p>
+                <h3>We Accept</h3>
+                <div class="card-area">
+                        <i class="fa fa-cc-visa"></i>
+                        <i class="fa fa-credit-card"></i>
+                        <i class="fa fa-cc-mastercard"></i>
+                        <i class="fa fa-cc-paypal"></i>
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Hosting</h2>
+                <ul>
+                    <li><a href="#">Web Hosting</a></li>
+                    <li><a href="#">Cloud Hosting</a></li>
+                    <li><a href="#">CMS Hosting</a></li>
+                    <li><a href="#">WordPress Hosting</a></li>
+                    <li><a href="#">Email Hosting</a></li>
+                    <li><a href="#">VPS Hosting</a></li>
+                </ul>
+                </div>                    
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Domain</h2>
+                <ul>
+                    <li><a href="#">Web Domain</a></li>
+                    <li><a href="#">Cloud Domain</a></li>
+                    <li><a href="#">CMS Domain</a></li>
+                    <li><a href="#">WordPress Domain</a></li>
+                    <li><a href="#">Email Domain</a></li>
+                    <li><a href="#">VPS Domain</a></li>
+                </ul>
+                </div>                    
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="single-box">
+                    <h2>Newsletter</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque earum similique fugiat nobis. Facere?</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Enter your Email ..." aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-long-arrow-right"></i></span>
+                    </div>
+                    <h2>Follow us on</h2>
+                    <p class="socials">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-dribbble"></i>
+                        <i class="fa fa-pinterest"></i>
+                        <i class="fa fa-twitter"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <small>
+      <p class="text-light" style="text-align: center;">All rights reserved &copy;2023</p>
+      <p class="text-light" style="text-align: center;">Made By Peterson and Co.</p>
+
+    </small>
+  </footer>
+
+
+</section>
+
+ <!-- This is where my footer ends  -->
+
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
